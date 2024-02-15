@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="nav_styles.css">
+    <link rel="stylesheet" href="access_styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <button onclick="toggleAccessibilityModes()">Accessibility</button>
+            <div class="accessibility">
+                <div>
+                    <span id="span-text" class>Change text size:</span>
+                    <label for="small-text"><input type="radio" id="small-text" name="text-size" value="small">
+                        Small</label>
+                    <label for="medium-text"><input type="radio" id="medium-text" name="text-size" value="medium">
+                        Medium</label>
+                    <label for="large-text"><input type="radio" id="large-text" name="text-size" value="large">
+                        Large</label>
+                    <label for="larger-text"><input type="radio" id="larger-text" name="text-size" value="larger">
+                        Larger</label>
+                </div>
+                <div>
+                    <span id="span-color">Change colors:</span>
+                    <label for="white-theme"><input type="radio" id="white-theme" name="color-theme" value="white">
+                        White</label>
+                    <label for="yellow-theme"><input type="radio" id="yellow-theme" name="color-theme" value="yellow">
+                        Yellow</label>
+                    <label for="blue-theme"><input type="radio" id="blue-theme" name="color-theme" value="blue">
+                        Blue</label>
+                </div>
+                <div>
+                    <button id="button-hide-images" onclick="toggleImageVisibility()">Hide images</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="content-section">
+            <div class="text-container">
+                <h1>Website for the visually impaired</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec felis ut massa accumsan rhoncus.</p>
+            </div>
+            <div class="image-container">
+                <img src="../images/image1.jpg" alt="Different types of disability">
+            </div>
+        </section>
+
+        <section class="content-section">
+            <div class="text-container">
+                <h2>This page is designed for the visually impaired</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec felis ut massa accumsan rhoncus.</p>
+            </div>
+            <div class="image-container">
+                <img src="../images/image2.jpg" alt="People of disability">
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <h3>Quick Link</h3>
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>

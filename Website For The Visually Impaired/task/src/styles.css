@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    color: black;
+    padding: 10px 20px;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+footer {
+    color: black;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.content-section {
+    display: flex;
+    flex-direction: row;
+}
+
+/* CSS for text container */
+.text-container {
+    flex: 1;
+}
+
+/* CSS for image container */
+.image-container {
+    flex: 1;
+    text-align: center; /* Center image horizontally */
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Center image within its container */
+}
