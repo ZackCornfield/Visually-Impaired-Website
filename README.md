@@ -1,5 +1,7 @@
 # Visually Impaired Web Application
 
+Hyperskill project: https://hyperskill.org/projects/368?track=5
+
 ## Overview
 The website made through a hyperskill project contains simple but useful features that showcases how to cater towards the visually impaired
 
